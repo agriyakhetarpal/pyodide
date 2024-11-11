@@ -22,7 +22,7 @@ BASE_URL = "https://github.com/pyodide/pyodide/releases/download/{version}/xbuil
 
 # Pyodide build version that is compatible with the latest cross-build environment
 # Note for maintainers: update this value when there is a breaking changes in the cross-build environment
-MIN_COMPATIBLE_PYODIDE_BUILD_VERSION = "0.26.0"
+MIN_COMPATIBLE_PYODIDE_BUILD_VERSION = "0.28.0"
 
 
 def parse_args() -> argparse.Namespace:
